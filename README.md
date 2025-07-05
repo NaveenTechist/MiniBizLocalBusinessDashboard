@@ -10,7 +10,7 @@ MiniBiz is a **full-stack local business insights dashboard** that lets users en
 - **Frontend:** React.js, Tailwind CSS, React Icons, Loader Spinners  
 - **Backend:** Node.js, Express.js (Mock AI logic)  
 - **Deployment:**  
-  - Frontend: GitHub Pages / Vercel  
+  - Frontend: GitHub Pages
   - Backend: Render.com
 
 ---
