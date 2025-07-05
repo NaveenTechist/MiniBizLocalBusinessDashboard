@@ -1,0 +1,101 @@
+* {
+  cursor: pointer;
+}
+
+.main-bg-container {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-bg-container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  color: rgb(100, 91, 91);
+  font-weight: 700;
+  margin: 5px;
+  margin-left: 20px;
+}
+.text-input {
+  border: 1px solid silver;
+  padding: 5px;
+}
+.btn-center {
+  text-align: center;
+}
+.btn {
+  background-color: #0038a8;
+  color: white;
+  padding: 10px;
+  margin-top: 25px;
+  border-width: 0px;
+  width: 100px;
+  border-radius: 4px;
+}
+.error-msg {
+  color: red;
+  font-weight: 700;
+  margin-top: 3px;
+}
+.row-wise-inputs {
+  display: flex;
+}
+@media (max-width: 576px) {
+  .welcome-header {
+    font-size: 25px;
+  }
+  .row-wise-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    color: rgb(100, 91, 91);
+    font-weight: 700;
+    margin: 5px;
+    margin-left: 0px;
+  }
+  .text-input {
+    border: 1px solid silver;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .welcome-header {
+    font-size: 55px;
+  }
+  .text-input {
+    border: 1px solid silver;
+    padding: 5px;
+    width: 450px;
+    height: 30px;
+  }
+  label {
+    color: rgb(100, 91, 91);
+    font-weight: 700;
+    margin: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
